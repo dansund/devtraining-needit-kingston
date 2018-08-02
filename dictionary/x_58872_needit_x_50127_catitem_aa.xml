@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="X_50127_CatItem_AA" max_length="40" name="x_58872_needit_x_50127_catitem_aa" type="collection">
+        <element attributes="import_attribute_name=Account,edge_encryption_enabled=true" label="Account" max_length="40" name="u_account" type="string"/>
+        <element attributes="import_attribute_name=Approvers,edge_encryption_enabled=true" label="Approvers" max_length="40" name="u_approvers" type="string"/>
+        <element attributes="import_attribute_name=Catalog Item Name,edge_encryption_enabled=true" label="Catalog Item Name" max_length="40" name="u_catalog_item_name" type="string"/>
+        <element attributes="import_attribute_name=Cat Item Short Description,edge_encryption_enabled=true" label="Cat Item Short Description" max_length="51" name="u_cat_item_short_description" type="string"/>
+        <element attributes="import_attribute_name=Criteria,edge_encryption_enabled=true" label="Criteria" max_length="40" name="u_criteria" type="string"/>
+        <element attributes="import_attribute_name=Pattern" label="Pattern" max_length="40" name="u_pattern" type="integer"/>
+        <element attributes="import_attribute_name=PreApprovedForOrderer,edge_encryption_enabled=true" label="PreApprovedForOrderer" max_length="40" name="u_preapprovedfororderer" type="string"/>
+        <element attributes="import_attribute_name=Resource,edge_encryption_enabled=true" label="Resource" max_length="98" name="u_resource" type="string"/>
+        <element attributes="import_attribute_name=Seq#,edge_encryption_enabled=true" label="Seq#" max_length="40" name="u_seq_" type="string"/>
+        <element attributes="import_attribute_name=Values,edge_encryption_enabled=true" label="Values" max_length="66" name="u_values" type="string"/>
+        <element attributes="import_attribute_name=Variable Name,edge_encryption_enabled=true" label="Variable Name" max_length="40" name="u_variable_name" type="string"/>
+        <element attributes="import_attribute_name=Variable Question,edge_encryption_enabled=true" label="Variable Question" max_length="40" name="u_variable_question" type="string"/>
+        <element attributes="import_attribute_name=Variable Type (Select),edge_encryption_enabled=true" label="Variable Type (Select)" max_length="40" name="u_variable_type__select_" type="string"/>
+    </element>
+</database>
